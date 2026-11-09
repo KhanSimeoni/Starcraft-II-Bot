@@ -1,7 +1,7 @@
 # ===== BOT SETTINGS =====
 # Your bot's name and race (use plain strings)
-BOT_NAME = "MyBot"
-BOT_RACE = "Zerg"  # Options: Terran, Protoss, Zerg, Random
+BOT_NAME = "Weiss Sneeze"
+BOT_RACE = "Protoss"  # Options: Terran, Protoss, Zerg, Random
 
 # ===== GAME SETTINGS =====
 # Maps configuration
@@ -15,14 +15,19 @@ MAP_PATH = "C:/Program Files (x86)/StarCraft II/Maps"  # Default Windows path - 
 
 # List of maps to play on (randomly selected if not specified)
 MAP_POOL = [
-    "PersephoneAIE_v4",
-    "PylonAIE_v4",
-    "TorchesAIE_v4"
+    "IncorporealAIE",
+    "LastFantasyAIE",
+    "LeyLinesAIE",
+    "MagannathaAIE",
+    "PerseponeAIE",
+    "PylonAIE",
+    "TorchesAIE",
+    "UltraloveAIE",
 ]
 
 # ===== OPPONENT SETTINGS =====
 # Computer opponent settings (for local games)
-OPPONENT_RACE = "Terran"  # Terran, Zerg, Protoss, Random
+OPPONENT_RACE = "Random"  # Terran, Zerg, Protoss, Random
 OPPONENT_DIFFICULTY = "Medium"  # VeryEasy, Easy, Medium, Hard, VeryHard, etc.
 
 # ===== GAME MODE =====
